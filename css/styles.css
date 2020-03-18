@@ -221,13 +221,14 @@ Navbar
   padding-left: 2.25rem;
 }
 /* 1170x280px */
+.show-links{
+  height: 280px;
+}
 .nav-links{
   height: 0;
   overflow: hidden;
 }
-.show-links{
-  height: 280px;
-}
+
 @media screen and (min-width:992px){
   /* hide toggle button */
   .navbar{
