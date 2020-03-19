@@ -302,7 +302,7 @@ Hero
 .hero-banner {
   text-align: center;
   color: var(--clr-white);
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   min-width: 100vw;
 }
 .hero-banner h1 {
