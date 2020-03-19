@@ -560,6 +560,7 @@ Contact
   display: -webkit-box;
   display: flex;
   max-width: 28rem;
+  flex-wrap: wrap;
 }
 .form-control {
   -webkit-box-flex: 1;
