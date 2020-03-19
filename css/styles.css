@@ -601,6 +601,7 @@ Contact
   cursor: pointer;
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  margin-top: 3rem;
 }
 .btn-submit:hover {
   background: var(--clr-primary-1);
