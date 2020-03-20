@@ -560,6 +560,7 @@ Contact
   display: -webkit-box;
   display: flex;
   max-width: 28rem;
+  flex-wrap: wrap;
 }
 .form-control {
   -webkit-box-flex: 1;
@@ -576,6 +577,7 @@ Contact
   background-image: var(--clr-white);
   text-transform: capitalize;
   border: transparent;
+  margin: 0.5rem;
 }
 .form-control::-webkit-input-placeholder {
   color: inherit;
@@ -594,7 +596,7 @@ Contact
 }
 .btn-submit {
   font-family: var(--ff-primary);
-  margin-left: 0.5rem;
+  /* margin-left: 0.5rem; */
   background: var(--clr-primary-8);
   color: var(--clr-primary-1);
   cursor: pointer;
